@@ -1,0 +1,183 @@
+{
+  "folds": [
+    "P4",
+    "P2",
+    "P1",
+    "P3"
+  ],
+  "models": [
+    {
+      "name": "SVM (EAR/MAR)",
+      "overall": 0.9029003783102144,
+      "per_fold": {
+        "P4": 96.73913043478261,
+        "P2": 95.65217391304348,
+        "P1": 84.08163265306122,
+        "P3": 86.66666666666667
+      },
+      "sd": 6.351820062716805
+    },
+    {
+      "name": "CNN MobileNetV2 (face)",
+      "overall": 0.7906683480453972,
+      "per_fold": {
+        "P4": 89.67391304347827,
+        "P2": 84.78260869565217,
+        "P1": 80.0,
+        "P3": 61.111111111111114
+      },
+      "sd": 12.494486695175226
+    },
+    {
+      "name": "CNN MobileNetV2 (eye)",
+      "overall": 0.7402269861286255,
+      "per_fold": {
+        "P4": 91.84782608695652,
+        "P2": 73.36956521739131,
+        "P1": 73.87755102040816,
+        "P3": 56.666666666666664
+      },
+      "sd": 14.368803878242307
+    },
+    {
+      "name": "CNN MobileNetV2 (eye, squared)",
+      "overall": 0.733921815889029,
+      "per_fold": {
+        "P4": 88.04347826086956,
+        "P2": 86.95652173913044,
+        "P1": 61.224489795918366,
+        "P3": 61.111111111111114
+      },
+      "sd": 15.20944769498089
+    },
+    {
+      "name": "CNN MobileNetV2 (face, frozen-1)",
+      "overall": 0.6317780580075663,
+      "per_fold": {
+        "P4": 66.84782608695652,
+        "P2": 71.19565217391305,
+        "P1": 60.40816326530612,
+        "P3": 55.00000000000001
+      },
+      "sd": 7.12192113665987
+    },
+    {
+      "name": "CNN from scratch (face)",
+      "overall": 0.5889029003783102,
+      "per_fold": {
+        "P4": 79.8913043478261,
+        "P2": 92.3913043478261,
+        "P1": 37.55102040816327,
+        "P3": 32.22222222222222
+      },
+      "sd": 30.107394317835816
+    }
+  ],
+  "pairwise": [
+    {
+      "a": "SVM (EAR/MAR)",
+      "b": "CNN MobileNetV2 (face)",
+      "mean_diff": 11.892992704328108,
+      "sd_diff": 9.52256596736279,
+      "separable": false
+    },
+    {
+      "a": "SVM (EAR/MAR)",
+      "b": "CNN MobileNetV2 (eye)",
+      "mean_diff": 16.84449866903283,
+      "sd_diff": 11.39611408665645,
+      "separable": false
+    },
+    {
+      "a": "SVM (EAR/MAR)",
+      "b": "CNN MobileNetV2 (eye, squared)",
+      "mean_diff": 16.451000690131124,
+      "sd_diff": 9.022609341306637,
+      "separable": true
+    },
+    {
+      "a": "SVM (EAR/MAR)",
+      "b": "CNN MobileNetV2 (face, frozen-1)",
+      "mean_diff": 27.42199053534457,
+      "sd_diff": 3.956437881881998,
+      "separable": true
+    },
+    {
+      "a": "SVM (EAR/MAR)",
+      "b": "CNN from scratch (face)",
+      "mean_diff": 30.27093808537908,
+      "sd_diff": 24.21059789053494,
+      "separable": false
+    },
+    {
+      "a": "CNN MobileNetV2 (face)",
+      "b": "CNN MobileNetV2 (eye)",
+      "mean_diff": 4.951505964704724,
+      "sd_diff": 5.60212108671677,
+      "separable": false
+    },
+    {
+      "a": "CNN MobileNetV2 (face)",
+      "b": "CNN MobileNetV2 (eye, squared)",
+      "mean_diff": 4.558007985803018,
+      "sd_diff": 9.605593018825758,
+      "separable": false
+    },
+    {
+      "a": "CNN MobileNetV2 (face)",
+      "b": "CNN MobileNetV2 (face, frozen-1)",
+      "mean_diff": 15.528997831016465,
+      "sd_diff": 7.353509012227008,
+      "separable": true
+    },
+    {
+      "a": "CNN MobileNetV2 (face)",
+      "b": "CNN from scratch (face)",
+      "mean_diff": 18.37794538105097,
+      "sd_diff": 21.901902096445326,
+      "separable": false
+    },
+    {
+      "a": "CNN MobileNetV2 (eye)",
+      "b": "CNN MobileNetV2 (eye, squared)",
+      "mean_diff": -0.39349797890170635,
+      "sd_diff": 11.229605692666793,
+      "separable": false
+    },
+    {
+      "a": "CNN MobileNetV2 (eye)",
+      "b": "CNN MobileNetV2 (face, frozen-1)",
+      "mean_diff": 10.57749186631174,
+      "sd_diff": 11.051315841233738,
+      "separable": false
+    },
+    {
+      "a": "CNN MobileNetV2 (eye)",
+      "b": "CNN from scratch (face)",
+      "mean_diff": 13.426439416346245,
+      "sd_diff": 23.81075079707514,
+      "separable": false
+    },
+    {
+      "a": "CNN MobileNetV2 (eye, squared)",
+      "b": "CNN MobileNetV2 (face, frozen-1)",
+      "mean_diff": 10.970989845213447,
+      "sd_diff": 9.205474382328548,
+      "separable": false
+    },
+    {
+      "a": "CNN MobileNetV2 (eye, squared)",
+      "b": "CNN from scratch (face)",
+      "mean_diff": 13.819937395247951,
+      "sd_diff": 15.56741444134234,
+      "separable": false
+    },
+    {
+      "a": "CNN MobileNetV2 (face, frozen-1)",
+      "b": "CNN from scratch (face)",
+      "mean_diff": 2.848947550034504,
+      "sd_diff": 23.29662441738113,
+      "separable": false
+    }
+  ]
+}

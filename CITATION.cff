@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or its findings, please cite it as below."
+title: "DriveGuard: geometric features beat CNNs for driver drowsiness detection"
+abstract: >-
+  A real-time driver drowsiness and distraction detector. Three hand-crafted
+  eye and mouth aspect-ratio features over a 1.2-second causal window, fed to
+  a linear SVM, reach 95.0% leave-one-person-out accuracy and outperform five
+  CNN variants trained on identical frames under identical folds. A zero-shot
+  object detector covers phone use, which facial geometry cannot represent.
+  The work also reports a negative result: detectors trained on public
+  drowsiness datasets learn head pose as a shortcut and score an F1 of 0.000
+  on the drowsy class when transferred to independent footage.
+type: software
+authors:
+  - family-names: Abdullahi
+    given-names: Ismail Dayah
+    alias: IsmailDayah
+license: MIT
+repository-code: "https://github.com/IsmailDayah/driveguard"
+version: 1.0.0
+date-released: 2026-09-09
+keywords:
+  - driver drowsiness detection
+  - driver monitoring
+  - eye aspect ratio
+  - shortcut learning
+  - domain shift
+  - person-independent evaluation
+  - embedded systems

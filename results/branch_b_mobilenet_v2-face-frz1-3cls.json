@@ -1,0 +1,24 @@
+{
+  "tag": "mobilenet_v2-face-frz1-3cls",
+  "input": "face",
+  "backbone": "mobilenet_v2",
+  "freeze": 1,
+  "square": false,
+  "classes": [
+    "normal",
+    "drowsy",
+    "yawning"
+  ],
+  "epochs": 50,
+  "accuracy": 0.6317780580075663,
+  "precision": 0.6523660580779372,
+  "recall": 0.6472392990316941,
+  "f1": 0.6285601816665743,
+  "per_person": {
+    "P4": 0.6684782608695652,
+    "P2": 0.7119565217391305,
+    "P1": 0.6040816326530613,
+    "P3": 0.55
+  },
+  "minutes": 9.18205794095993
+}

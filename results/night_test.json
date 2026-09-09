@@ -1,0 +1,64 @@
+{
+  "absolute": {
+    "night_accuracy": 0.8,
+    "night_balanced": 0.8006345848757271,
+    "night_f1": 0.7932084019040541,
+    "day_control": 0.963265306122449,
+    "confusion": [
+      [
+        62,
+        0,
+        0
+      ],
+      [
+        32,
+        30,
+        0
+      ],
+      [
+        5,
+        0,
+        56
+      ]
+    ],
+    "n_frames": 185
+  },
+  "examples_wrong": [
+    "data/frames/drowsy/P1_night_drowsy_1_f00000.jpg",
+    "data/frames/drowsy/P1_night_drowsy_1_f00005.jpg",
+    "data/frames/drowsy/P1_night_drowsy_1_f00010.jpg",
+    "data/frames/drowsy/P1_night_drowsy_1_f00015.jpg",
+    "data/frames/drowsy/P1_night_drowsy_1_f00020.jpg",
+    "data/frames/drowsy/P1_night_drowsy_1_f00025.jpg",
+    "data/frames/drowsy/P1_night_drowsy_1_f00030.jpg",
+    "data/frames/drowsy/P1_night_drowsy_1_f00035.jpg",
+    "data/frames/drowsy/P1_night_drowsy_1_f00040.jpg",
+    "data/frames/drowsy/P1_night_drowsy_1_f00045.jpg",
+    "data/frames/drowsy/P1_night_drowsy_1_f00050.jpg",
+    "data/frames/drowsy/P1_night_drowsy_1_f00055.jpg"
+  ],
+  "relative": {
+    "night_accuracy": 0.7351351351351352,
+    "night_balanced": 0.736118455843469,
+    "night_f1": 0.7066942583103403,
+    "day_control": 0.8,
+    "confusion": [
+      [
+        62,
+        0,
+        0
+      ],
+      [
+        43,
+        18,
+        1
+      ],
+      [
+        5,
+        0,
+        56
+      ]
+    ],
+    "n_frames": 185
+  }
+}

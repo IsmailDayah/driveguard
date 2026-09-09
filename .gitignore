@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# recordings and derived arrays are not published
+*.mp4
+*.npz
+*.pt
+data/
+frames/
+
+!firmware/**
+
+.pio/
+.vscode/
+*.log
+models/face_landmarker.task
+
+# credentials and local config - never commit
+.env
+.env.*
+kaggle.json
+*roboflow*key*
+*_key.txt
+*_secret*
+*.pem
+*.key
+
+# training/run outputs
+runs/
+logs/

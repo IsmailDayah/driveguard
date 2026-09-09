@@ -1,0 +1,59 @@
+{
+  "branch_a_per_class": {
+    "normal": {
+      "precision": 0.7214765100671141,
+      "recall": 0.698051948051948,
+      "f1": 0.7095709570957096,
+      "support": 308
+    },
+    "drowsy": {
+      "precision": 0.8095238095238095,
+      "recall": 0.48770491803278687,
+      "f1": 0.6086956521739131,
+      "support": 244
+    },
+    "yawning": {
+      "precision": 0.9734513274336283,
+      "recall": 0.9128630705394191,
+      "f1": 0.9421841541755889,
+      "support": 241
+    },
+    "phone": {
+      "precision": 0.4157608695652174,
+      "recall": 0.6219512195121951,
+      "f1": 0.498371335504886,
+      "support": 246
+    }
+  },
+  "yolo_zero_shot_phone": {
+    "precision": 1.0,
+    "recall": 0.7682926829268293,
+    "f1": 0.8689655172413793,
+    "support": 246,
+    "frames": 1039,
+    "tag": "yolov8n"
+  },
+  "landmark_dropouts": {
+    "drowsy": {
+      "total": 244,
+      "dropped": []
+    },
+    "normal": {
+      "total": 308,
+      "dropped": []
+    },
+    "phone": {
+      "total": 246,
+      "dropped": []
+    },
+    "yawning": {
+      "total": 245,
+      "dropped": [
+        "P3_yawning_1_f00070.jpg",
+        "P3_yawning_1_f00075.jpg",
+        "P3_yawning_1_f00080.jpg",
+        "P3_yawning_1_f00085.jpg"
+      ]
+    }
+  }
+}

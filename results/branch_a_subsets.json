@@ -1,0 +1,252 @@
+[
+  {
+    "subset": "A  geometric only (baseline)",
+    "features": [
+      "EAR_L",
+      "EAR_R",
+      "EAR_mean",
+      "EAR_asym",
+      "MAR",
+      "MAR_over_EAR",
+      "face_hw"
+    ],
+    "n": 7,
+    "accuracy": 0.9029003783102144,
+    "f1": 0.8996172582717056,
+    "drowsy_recall": 0.8032786885245902,
+    "yawning_recall": 0.9253112033195021,
+    "per_person": {
+      "P4": 0.967391304347826,
+      "P2": 0.9565217391304348,
+      "P1": 0.8408163265306122,
+      "P3": 0.8666666666666667
+    }
+  },
+  {
+    "subset": "B  temporal only",
+    "features": [
+      "perclos_15",
+      "perclos_20",
+      "perclos_25",
+      "ear_min_w",
+      "ear_mean_w",
+      "ear_std_w",
+      "ear_slope_w",
+      "closed_run_w",
+      "mar_max_w",
+      "mar_mean_w",
+      "mar_std_w",
+      "window_frac",
+      "perclos_rel60",
+      "perclos_rel70",
+      "perclos_rel80",
+      "ear_over_base",
+      "closed_run_rel"
+    ],
+    "n": 17,
+    "accuracy": 0.8940731399747793,
+    "f1": 0.8880989183511413,
+    "drowsy_recall": 0.9098360655737705,
+    "yawning_recall": 0.7717842323651453,
+    "per_person": {
+      "P4": 0.7228260869565217,
+      "P2": 0.9891304347826086,
+      "P1": 0.9591836734693877,
+      "P3": 0.8833333333333333
+    }
+  },
+  {
+    "subset": "C  everything (19)",
+    "features": [
+      "EAR_L",
+      "EAR_R",
+      "EAR_mean",
+      "EAR_asym",
+      "MAR",
+      "MAR_over_EAR",
+      "face_hw",
+      "perclos_15",
+      "perclos_20",
+      "perclos_25",
+      "ear_min_w",
+      "ear_mean_w",
+      "ear_std_w",
+      "ear_slope_w",
+      "closed_run_w",
+      "mar_max_w",
+      "mar_mean_w",
+      "mar_std_w",
+      "window_frac",
+      "perclos_rel60",
+      "perclos_rel70",
+      "perclos_rel80",
+      "ear_over_base",
+      "closed_run_rel"
+    ],
+    "n": 24,
+    "accuracy": 0.8776796973518285,
+    "f1": 0.86976940708954,
+    "drowsy_recall": 0.8852459016393442,
+    "yawning_recall": 0.7261410788381742,
+    "per_person": {
+      "P4": 0.7119565217391305,
+      "P2": 0.9728260869565217,
+      "P1": 0.9673469387755103,
+      "P3": 0.8277777777777777
+    }
+  },
+  {
+    "subset": "D  perclos_20 + MAR",
+    "features": [
+      "perclos_20",
+      "MAR"
+    ],
+    "n": 2,
+    "accuracy": 0.9419924337957125,
+    "f1": 0.9404995270017791,
+    "drowsy_recall": 0.9057377049180327,
+    "yawning_recall": 0.91701244813278,
+    "per_person": {
+      "P4": 0.9619565217391305,
+      "P2": 0.9728260869565217,
+      "P1": 0.9510204081632653,
+      "P3": 0.8777777777777778
+    }
+  },
+  {
+    "subset": "E  D + closed_run",
+    "features": [
+      "perclos_20",
+      "MAR",
+      "closed_run_w"
+    ],
+    "n": 3,
+    "accuracy": 0.9495586380832283,
+    "f1": 0.9486389898064544,
+    "drowsy_recall": 0.9262295081967213,
+    "yawning_recall": 0.921161825726141,
+    "per_person": {
+      "P4": 0.967391304347826,
+      "P2": 0.9728260869565217,
+      "P1": 0.963265306122449,
+      "P3": 0.8888888888888888
+    }
+  },
+  {
+    "subset": "F  E + mar_max_w",
+    "features": [
+      "perclos_20",
+      "MAR",
+      "closed_run_w",
+      "mar_max_w"
+    ],
+    "n": 4,
+    "accuracy": 0.9432534678436317,
+    "f1": 0.942063101036017,
+    "drowsy_recall": 0.9057377049180327,
+    "yawning_recall": 0.9336099585062241,
+    "per_person": {
+      "P4": 0.967391304347826,
+      "P2": 0.9728260869565217,
+      "P1": 0.9306122448979591,
+      "P3": 0.9055555555555556
+    }
+  },
+  {
+    "subset": "G  F + EAR_mean",
+    "features": [
+      "perclos_20",
+      "MAR",
+      "closed_run_w",
+      "mar_max_w",
+      "EAR_mean"
+    ],
+    "n": 5,
+    "accuracy": 0.9243379571248423,
+    "f1": 0.921547700471255,
+    "drowsy_recall": 0.9180327868852459,
+    "yawning_recall": 0.8672199170124482,
+    "per_person": {
+      "P4": 0.8695652173913043,
+      "P2": 0.9836956521739131,
+      "P1": 0.9387755102040817,
+      "P3": 0.9
+    }
+  },
+  {
+    "subset": "H  G + ear_mean_w",
+    "features": [
+      "perclos_20",
+      "MAR",
+      "closed_run_w",
+      "mar_max_w",
+      "EAR_mean",
+      "ear_mean_w"
+    ],
+    "n": 6,
+    "accuracy": 0.8663303909205549,
+    "f1": 0.8593355302460767,
+    "drowsy_recall": 0.8852459016393442,
+    "yawning_recall": 0.7510373443983402,
+    "per_person": {
+      "P4": 0.717391304347826,
+      "P2": 0.9782608695652174,
+      "P1": 0.8775510204081632,
+      "P3": 0.8888888888888888
+    }
+  },
+  {
+    "subset": "I  geometric + perclos_20 + closed_run",
+    "features": [
+      "EAR_L",
+      "EAR_R",
+      "EAR_mean",
+      "EAR_asym",
+      "MAR",
+      "MAR_over_EAR",
+      "face_hw",
+      "perclos_20",
+      "closed_run_w"
+    ],
+    "n": 9,
+    "accuracy": 0.9432534678436317,
+    "f1": 0.9426411447527762,
+    "drowsy_recall": 0.9139344262295082,
+    "yawning_recall": 0.91701244813278,
+    "per_person": {
+      "P4": 0.9836956521739131,
+      "P2": 0.9728260869565217,
+      "P1": 0.9142857142857143,
+      "P3": 0.9111111111111111
+    }
+  },
+  {
+    "subset": "J  geometric + all eye-temporal",
+    "features": [
+      "EAR_L",
+      "EAR_R",
+      "EAR_mean",
+      "EAR_asym",
+      "MAR",
+      "MAR_over_EAR",
+      "face_hw",
+      "perclos_15",
+      "perclos_20",
+      "perclos_25",
+      "closed_run_w",
+      "ear_mean_w",
+      "ear_min_w"
+    ],
+    "n": 13,
+    "accuracy": 0.9407313997477932,
+    "f1": 0.9392107707788182,
+    "drowsy_recall": 0.889344262295082,
+    "yawning_recall": 0.9253112033195021,
+    "per_person": {
+      "P4": 0.9619565217391305,
+      "P2": 0.9891304347826086,
+      "P1": 0.9224489795918367,
+      "P3": 0.8944444444444445
+    }
+  }
+]

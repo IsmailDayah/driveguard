@@ -1,0 +1,248 @@
+{
+  "bands": [
+    1.5,
+    4.0,
+    7.5
+  ],
+  "provenance": {
+    "features": [
+      "perclos_20",
+      "MAR",
+      "closed_run_w"
+    ],
+    "n_train": 793,
+    "classes": [
+      "normal",
+      "drowsy",
+      "yawning"
+    ],
+    "persons": [
+      "P4",
+      "P2",
+      "P1",
+      "P3"
+    ],
+    "source": "features_temporal.npz"
+  },
+  "false_alarms_external": {
+    "alarms": 9,
+    "hours": 0.38927777777777856,
+    "runs": 238,
+    "per_hour": 23.119737405451644
+  },
+  "false_alarms_own_upper_bound_per_hour": 175.32467532467533,
+  "per_frame_latency_ms": {
+    "median": 7.4613000033423305,
+    "p95": 8.009754998784047,
+    "p99": 8.985428998712443,
+    "n": 60
+  },
+  "alert_latency_s": {
+    "median": 2.4000000000000004,
+    "values": [
+      1.4000000000000001,
+      2.0,
+      3.0,
+      3.2,
+      2.0,
+      1.4000000000000001,
+      3.2,
+      2.8000000000000003,
+      2.0,
+      1.4000000000000001,
+      3.8000000000000003,
+      3.4000000000000004,
+      2.4000000000000004,
+      2.4000000000000004,
+      2.2,
+      3.6
+    ]
+  },
+  "false_alarms_per_hour": 0.0,
+  "normal_minutes": 1.0266666666666666,
+  "stage_accuracy": 1.0,
+  "per_clip": [
+    {
+      "clip": "P4/drowsy/1",
+      "true": "drowsy",
+      "peak_stage": 2,
+      "first_alert_s": 1.4000000000000001,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P4/drowsy/2",
+      "true": "drowsy",
+      "peak_stage": 2,
+      "first_alert_s": 2.0,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P4/normal/1",
+      "true": "normal",
+      "peak_stage": 0,
+      "first_alert_s": null,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P4/normal/2",
+      "true": "normal",
+      "peak_stage": 0,
+      "first_alert_s": null,
+      "duration_s": 6.0
+    },
+    {
+      "clip": "P4/yawning/1",
+      "true": "yawning",
+      "peak_stage": 1,
+      "first_alert_s": 3.0,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P4/yawning/2",
+      "true": "yawning",
+      "peak_stage": 1,
+      "first_alert_s": 3.2,
+      "duration_s": 6.0
+    },
+    {
+      "clip": "P2/drowsy/1",
+      "true": "drowsy",
+      "peak_stage": 2,
+      "first_alert_s": 2.0,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P2/drowsy/2",
+      "true": "drowsy",
+      "peak_stage": 2,
+      "first_alert_s": 1.4000000000000001,
+      "duration_s": 6.0
+    },
+    {
+      "clip": "P2/normal/1",
+      "true": "normal",
+      "peak_stage": 0,
+      "first_alert_s": null,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P2/normal/2",
+      "true": "normal",
+      "peak_stage": 0,
+      "first_alert_s": null,
+      "duration_s": 6.0
+    },
+    {
+      "clip": "P2/yawning/1",
+      "true": "yawning",
+      "peak_stage": 1,
+      "first_alert_s": 3.2,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P2/yawning/2",
+      "true": "yawning",
+      "peak_stage": 1,
+      "first_alert_s": 2.8000000000000003,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P1/drowsy/1",
+      "true": "drowsy",
+      "peak_stage": 2,
+      "first_alert_s": 2.0,
+      "duration_s": 6.0
+    },
+    {
+      "clip": "P1/drowsy/2",
+      "true": "drowsy",
+      "peak_stage": 2,
+      "first_alert_s": 1.6,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P1/normal/1",
+      "true": "normal",
+      "peak_stage": 0,
+      "first_alert_s": null,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P1/normal/2",
+      "true": "normal",
+      "peak_stage": 0,
+      "first_alert_s": null,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P1/normal/3",
+      "true": "normal",
+      "peak_stage": 0,
+      "first_alert_s": null,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P1/normal/4",
+      "true": "normal",
+      "peak_stage": 0,
+      "first_alert_s": null,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P1/yawning/1",
+      "true": "yawning",
+      "peak_stage": 1,
+      "first_alert_s": 3.8000000000000003,
+      "duration_s": 6.0
+    },
+    {
+      "clip": "P1/yawning/2",
+      "true": "yawning",
+      "peak_stage": 1,
+      "first_alert_s": 3.4000000000000004,
+      "duration_s": 6.0
+    },
+    {
+      "clip": "P3/drowsy/1",
+      "true": "drowsy",
+      "peak_stage": 2,
+      "first_alert_s": 2.2,
+      "duration_s": 6.0
+    },
+    {
+      "clip": "P3/drowsy/2",
+      "true": "drowsy",
+      "peak_stage": 2,
+      "first_alert_s": 2.2,
+      "duration_s": 6.0
+    },
+    {
+      "clip": "P3/normal/1",
+      "true": "normal",
+      "peak_stage": 0,
+      "first_alert_s": null,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P3/normal/2",
+      "true": "normal",
+      "peak_stage": 0,
+      "first_alert_s": null,
+      "duration_s": 6.2
+    },
+    {
+      "clip": "P3/yawning/1",
+      "true": "yawning",
+      "peak_stage": 1,
+      "first_alert_s": 2.2,
+      "duration_s": 5.4
+    },
+    {
+      "clip": "P3/yawning/2",
+      "true": "yawning",
+      "peak_stage": 1,
+      "first_alert_s": 3.6,
+      "duration_s": 6.2
+    }
+  ]
+}

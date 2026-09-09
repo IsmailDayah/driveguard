@@ -1,0 +1,26 @@
+[
+  {
+    "model": "yolo11n",
+    "mAP50": 0.9279283704786069,
+    "mAP50_95": 0.8598734252699233,
+    "precision": 0.8538961553597549,
+    "recall": 0.9050784187762927,
+    "inference_ms": 0.3439876228119679,
+    "fps": 2907.0813415476423,
+    "params_M": 2.582737,
+    "train_minutes": 46.86874908208847,
+    "weights": "/workspace/out/yolo/yolo11n/weights/best.pt"
+  },
+  {
+    "model": "yolo26n",
+    "mAP50": 0.9541182031039966,
+    "mAP50_95": 0.8849931231389654,
+    "precision": 0.8288009401188875,
+    "recall": 0.8763312047417181,
+    "inference_ms": 0.4439698148173155,
+    "fps": 2252.405381234036,
+    "params_M": 2.375421,
+    "train_minutes": 57.872013835112256,
+    "weights": "/workspace/out/yolo/yolo26n/weights/best.pt"
+  }
+]

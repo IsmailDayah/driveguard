@@ -219,7 +219,7 @@ def main():
                                   for k, v in worst))
 
     # FL3D is 73% `alert`, so ACCURACY is the wrong yardstick: a
-    # predict-everything-normal model scores 73.1% accuracy with zero
+    # predict-everything-normal model scores 72.9% accuracy with zero
     # utility. Judge on metrics that imbalance cannot inflate. An earlier
     # version compared accuracy against majority-class ACCURACY and wrongly
     # logged "DOES NOT TRANSFER" for a model sitting +54 macro-F1 above

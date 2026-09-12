@@ -258,7 +258,7 @@ Consecutive video frames are nearly identical, so a random frame-level split
 lets a model score highly by recognising the person rather than the behaviour.
 
 The deployed model was also applied unchanged to **10,531 frames from 44
-drivers** it had never seen, scoring 86.1% against a 73.1% majority baseline.
+drivers** it had never seen, scoring 86.1% against a 72.9% majority baseline.
 
 ---
 
